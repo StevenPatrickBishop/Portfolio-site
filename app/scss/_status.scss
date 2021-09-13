@@ -1,0 +1,16 @@
+.current-status{
+    background-color: white;
+}
+
+@media only screen and (max-width: 1024px){
+    .current-status{
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        padding: 0 16px;
+    }
+    }
+    
+}

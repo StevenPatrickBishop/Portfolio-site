@@ -1,0 +1,32 @@
+.education{
+	text-align: center;
+	color: $offWhite;
+	// background: #f7f7f7;
+	background: linear-gradient(rgba(141, 153, 174, 0.81),rgba(141, 153, 174, 0.5)), url(../images/Mountains.jpeg);
+	background-attachment: fixed;
+	background-position: bottom;
+	background-size: cover;
+
+	.cap-icon{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-bottom: 50px;
+
+		img{
+        max-height: 100px;
+    	}
+	}
+	
+}
+
+@media only screen and (max-width: 1024px){
+	.education{
+		h1{
+			font-size: 3rem;
+		}
+		p,h3{
+			padding: 0 16px;
+		}
+	}
+}

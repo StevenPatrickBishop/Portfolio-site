@@ -1,0 +1,28 @@
+.resume{
+    
+    color: $offWhite;
+	
+    text-align: center;
+
+    h2{
+        color:$offWhite;
+    }
+
+	background: linear-gradient(rgba(141, 153, 174, 0.7),rgba(141, 153, 174, 0.7)), url(../images/desk.jpeg);
+    background-attachment: fixed;
+	background-position: top;
+	background-size: cover;
+
+    a, a:visited{
+        text-decoration: none;
+        color: $offWhite;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .resume{
+        h2{
+            font-size: 3rem;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.intro{
+    background: linear-gradient(
+        to bottom left, 
+        rgba(13, 12, 27, 0.3) 0%, 
+        rgba(13, 12, 27, 0.4) 25%, 
+        rgba(13, 12, 27, 0.5) 50%,
+        rgba(13, 12, 27, 0.6) 75%, 
+        #0d0c1be6 100%),
+        url(../images/6P6A1261.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:$offWhite;
+    height: 750px;
+    background-attachment: fixed;
+
+    .intro-content{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        img{
+            width: 864px;
+            height: auto;
+        }
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 1437px)  {
+    .intro{
+        height: 500px;
+
+        .intro-content{
+            img{
+                margin-top: 48px;
+                width:620px;
+            }
+        }
+
+        
+    }
+}
+
+@media only screen and (max-width: 990px)  {
+    .intro{
+        height: 250px;
+
+        .intro-content{
+            img{
+                margin-top: 48px;
+                width:500px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px)  {
+    .intro{
+    .intro-content{
+    img{
+        margin-top: 48px;
+        width:300px;
+        height: auto;
+    
+    }
+    
+}
+}
+
+}
+
+
+
+

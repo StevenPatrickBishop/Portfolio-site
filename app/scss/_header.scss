@@ -1,0 +1,81 @@
+.header{
+    transition: background .5s ease-in-out, padding .5s ease-in-out, height .5s ease-in-out;
+    background-color: $dark-transparent;
+    position: fixed;
+    width: 100%;
+    font-family: $alt-copy;
+
+    .boxed-wide{
+        transition: padding .5s ease-in-out;
+        padding: 20px 0 ;
+    }
+    
+}
+
+.scroll{
+    background-color: $dark;
+    transition: background .5s ease-in-out, padding .5s ease-in-out, height .5s ease-in-out;
+    
+    .boxed-wide{
+        transition: padding .5s ease-in-out;
+        padding: 0;
+    }
+}
+
+
+    .overlay{
+        background-image: linear-gradient($flatblue,transparent);
+        position: absolute;
+        top: 80px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+
+    @media only screen and (max-width: 1024px)  {
+    
+        .header{
+            background: $dark;
+            // transition: padding .5s ease-in-out;
+            padding: 0 ;
+
+            .boxed-wide{
+                transition: padding .5s ease-in-out;
+                padding: 10px 0 ;
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

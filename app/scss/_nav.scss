@@ -1,0 +1,32 @@
+.navbar{
+ 
+    &__button{
+        a{
+            img{
+                height: 1rem;
+            }
+        }
+    }
+
+
+    .top-logo{
+        img{
+             height: 24px;
+        }
+       
+    }
+
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+
+.nav-link{
+    margin-right: 16px;
+    font-size: 16px;
+}
+
+
+    

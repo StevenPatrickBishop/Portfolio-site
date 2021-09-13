@@ -1,0 +1,43 @@
+footer{
+    background: $dark;
+    color: $offWhite;
+    ;
+
+
+    .contact-info{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    i{
+        color: $brick;
+        margin: 10px;
+        font-size: 36px;
+    }
+
+    p{
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 16px;
+    }
+
+    h2{
+        padding-top: 24px;
+        font-size: 3rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1024px){
+  
+    footer{
+        h2{
+
+            font-size: 2rem;
+        }
+    }
+  
+}
